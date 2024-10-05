@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+
+<head>
+    <title>BEST SINGING</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <h1 id="title">GROW YOUR TALENT</h1>
+    <p id="description">A Talent compedition</p>
+    <form id="survey-form">
+        <fieldset>
+            <label id="name-label">Name<input id="name" type="text" placeholder="Enter your full name"
+                    required /></label>
+
+            <label id="email-label">Email<input id="email" type="email" placeholder="Enter your email address"
+                    required /></label>
+
+            <label id="number-label">Number<input id="number" type="number" min="10" max="11"
+                    placeholder="Enter your phone number" required /></label>
+        </fieldset>
+        <fieldset>
+            <label for"dropdown">choose a country</label>
+            <select id="dropdown" name="country">
+                <option value="USA">USA</option>
+                <option value="India">India</option>
+                <option value="London">London</option>
+                <option value="French">French</option>
+            </select>
+        </fieldset>
+        <fieldset>
+            <label for="yes">From where you know about as
+            </label>
+
+            <label for="singer"><input id="singer" type="radio" name="singer" value="singer" class="inline" />Social
+                media</label>
+            <label for="singer"><input id="singer" type="radio" name="singer" value="singer"
+                    class="inline" />Advertisment</label>
+            <label for="singer"><input id="singer" type="radio" name="singer" value="singer" class="inline" />By
+                freind</label>
+        </fieldset>
+        <fieldset>
+            <label for="no">Which field you want to choose</label>
+
+            <label for="singer"><input type="checkbox" value="singer" id="singer" class="inline" />Singer</label>
+            <label for="singer"><input type="checkbox" value="singer" id="singer" class="inline" />Dancer</label>
+            <label for="singer"><input type="checkbox" value="singer" id="singer" class="inline" />Actor</label>
+            <label for="singer"><input type="checkbox" value="singer" id="singer" class="inline" />Influencer</label>
+            <label for="singer"><input type="checkbox" value="singer" id="singer" class="inline" />Poet</label>
+            <label for="singer"><input type="checkbox" value="singer" id="singer" class="inline" />Mimicry
+                artist</label>
+            <label for="singer"><input type="checkbox" value="singer" id="singer" class="inline" />Comedian</label>
+        </fieldset>
+        <fieldset>
+            <label for="comments">Enter your additional comments
+                <textarea id="comments" name="comments" rows="4" cols="50"
+                    placeholder="enter your additional comments"></textarea></label>
+            <button type="submit" id="submit">Submit</button>
+        </fieldset>
+    </form>
+</body>
+
+</html>
